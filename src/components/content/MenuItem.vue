@@ -3,22 +3,33 @@
   <!-- Grille d'icônes -->
   <div class="icon-grid">
     <div class="icon-box">
-      <div class="icon chat-icon">💬</div>
+      <div class="icon chat-icon">
+        <i class="pi pi-envelope"></i>
+      </div>
     </div>
     <div class="icon-box">
-      <div class="icon heart-icon">❤️</div>
+      <div class="icon heart-icon">
+        <i class="pi  pi-heart"></i>
+      </div>
     </div>
     <div class="icon-box">
-      <div class="icon telegram-icon">✈️</div>
+      <div class="icon telegram-icon">
+        <i class="pi pi-telegram"></i>
+     </div>
     </div>
     <div class="icon-box">
       <div class="icon play-icon">▶️</div>
     </div>
     <div class="icon-box">
-      <div class="icon location-icon">📍</div>
+      <div class="icon location-icon">
+        <i class="pi pi-map-marker"></i>
+      </div>
     </div>
     <div class="icon-box">
-      <div class="icon grid-icon">⊞</div>
+        
+      <div class="icon grid-icon">
+        <i class="pi pi-table"></i>
+      </div>
     </div>
   </div>
     </div>
@@ -26,15 +37,17 @@
 
 <script setup>
 
+
 </script>
 
 <style  scoped>
+
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    max-width: 300px;
-    margin: 2rem 0;
+    max-width: 100px;
+    margin: 2rem 0 0 30px;
   }
   
   .icon-box {
