@@ -26,7 +26,6 @@
       </div>
     </div>
     <div class="icon-box">
-        
       <div class="icon grid-icon">
         <i class="pi pi-table"></i>
       </div>
